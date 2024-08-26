@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/gabriel/workspaces/go2_rl_ws/build/unitree_ros2_python",
+        "/home/gabriel/workspaces/go2_rl_ws/install/unitree_ros2_python/lib/python3.10/site-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/build/rl_navigation",
+        "/home/gabriel/workspaces/go2_rl_ws/install/rl_navigation/lib/python3.10/site-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/build/go2_lidar_decoder",
+        "/home/gabriel/workspaces/go2_rl_ws/install/go2_lidar_decoder/lib/python3.10/site-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/src/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/src/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/gabriel/workspaces/go2_rl_ws/build/unitree_ros2_python",
+        "/home/gabriel/workspaces/go2_rl_ws/install/unitree_ros2_python/lib/python3.10/site-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/build/rl_navigation",
+        "/home/gabriel/workspaces/go2_rl_ws/install/rl_navigation/lib/python3.10/site-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/build/go2_lidar_decoder",
+        "/home/gabriel/workspaces/go2_rl_ws/install/go2_lidar_decoder/lib/python3.10/site-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/src/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/gabriel/workspaces/go2_rl_ws/src/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
