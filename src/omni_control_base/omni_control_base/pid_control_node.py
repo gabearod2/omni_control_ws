@@ -6,6 +6,8 @@ from msg import Box
 import numpy as np
 import time
 
+
+# TODO: Convert to state space for better controller. 
 class PIDControlNode(Node):
     def __init__(self):
         super().__init__("pid_control")
@@ -38,7 +40,7 @@ class PIDControlNode(Node):
             self.Kp_lin = self.get_parameter('Kp_lin').get_parameter_value().double_value
             self.Ki_lin = self.get_parameter('Ki_lin').get_parameter_value().double_value
             self.Kd_lin = self.get_parameter('Kd_lin').get_parameter_value().double_value
-
+### Policy Information
         # Rotational Control Params - Based on initial vehicle
         self.declare_parameter('use_zig_nic_rot', False)
         self.zig_nic_rot = self.get_parameter('use_zig_nic_rot').get_parameter_value().bool_value
