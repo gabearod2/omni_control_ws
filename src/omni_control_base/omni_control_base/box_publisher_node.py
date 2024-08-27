@@ -3,7 +3,6 @@ import rclpy
 from rclpy.node import Node
 from msg import Box
 import numpy as np
-import sys
 import jetson_inference
 import jetson_utils
 
@@ -44,7 +43,7 @@ class BoxPublisherNode(Node):
         self.msg.center = [detection.Center(0), detection.Center(1)]
         self.msg.width = detection.Width
         self.msg.height = detection.Height
-        self.publisher.publish(msg)
+        self.publisher.publish(self.msg)
 
 
 def main(args=None):

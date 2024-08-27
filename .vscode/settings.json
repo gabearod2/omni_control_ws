@@ -26,5 +26,6 @@
         "/home/gabriel/workspaces/go2_rl_ws/src/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "ros.distro": "humble"
 }

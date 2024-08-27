@@ -13,13 +13,16 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='gabriel',
+    maintainer='Gabriel Rodriguez',
     maintainer_email='gabearod2@gmail.com',
-    description='TODO: Package description',
+    description='Omnidirectional Control for deployment on the Jetson Nano.',
     license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'pid_control_node = omni_control_base.pid_control_node:main',
+            'box_publisher_node = omni_control_base.box_publisher_node:main',
+            'motor_cmd_sender_node = omni_control_base.motor_cmd_sender_node:main'
         ],
     },
 )
