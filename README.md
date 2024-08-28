@@ -1,8 +1,8 @@
-# Omnidirectional Control
+# SHPE Omnidirectional Control Workspace
 
 ## Introduction and Scope
 
-This repository contains a ROS2 Humble workspace allowing for real time deployment of SSD molbilenet for object capture. 
+This repository contains a ROS2 Humble workspace allowing for real time deployment of SSD molbilenet for object capture. Students and other contirbutors can create their own controllers to test and deploy on the robot. 
 
 ## Startup
 
@@ -26,3 +26,4 @@ Then, run the launch file:
 ros2 launch omni_launch omni_control.launch.py
 ```
 
+Check out Embry-Riddle's SHPE chapter [here](https://eraushpe.org/).
