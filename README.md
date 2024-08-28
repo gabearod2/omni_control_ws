@@ -11,7 +11,7 @@ First clone this repo into your workspaces directory. Then go to [Jetson Contain
 ```bash
 $ git clone --recursive --depth=1 https://github.com/dusty-nv/jetson-inference
 $ cd jetson-inference
-$ docker/run.sh
+$ docker/run.sh --ros=humble
 ```
 
 Then, run the container and build:
