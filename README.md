@@ -22,7 +22,7 @@ git clone https://github.com/gabearod2/omni_control_ws
 Then, run the launch file for the object detection for jetson-inference.
 
 ```bash
-ros2 launch ros_deep_learning detectnet.ros2.launch input:=csi://0 output:=display://0
+ros2 launch ros_deep_learning detectnet.ros2.launch input:=csi://0 --headless
 
 ```
 
