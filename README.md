@@ -14,12 +14,12 @@ $ cd jetson-inference
 $ docker/run.sh --ros=humble
 ```
 
-Then, run the container and build:
+I will have to change the dependencies of this ROS package to include that of the jetson-inference ros.
+
+TODO: Add ability to not have an output. 
 
 ```bash
-docker run -it --rm -v /home/shpe/workspaces:/workspaces omni_control_container bash -c "cd /workspaces && ls"
-cd omni_control_ws
-colcon build
+ros2 launch ros_deep_learning detectnet.ros2.launch input:=csi://0 output:=display://0
 ```
 
 Then, run the launch file:

@@ -2,12 +2,14 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray
-from msg import Box
+from vision_msgs.msg import Detection2DArray
 import numpy as np
 import time
 
 
 # TODO: Convert to state space for better controller. 
+# TODO: Add controller for following a person
+# TODO: Add odometry for Nav2
 class PIDControlNode(Node):
     def __init__(self):
         super().__init__("pid_control")
@@ -19,7 +21,7 @@ class PIDControlNode(Node):
             10
         )
         self.subscription = self.create_subscription(
-            Box,
+            Detection2DArray,
             'detections', 
             self.detection_callback,
             10
