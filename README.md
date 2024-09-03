@@ -1,4 +1,4 @@
-# SHPE Omnidirectional Control Workspace
+# SHPE Omnidirectional Control Workspace - OmniCatcher
 
 ## Introduction and Scope
 
