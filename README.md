@@ -13,11 +13,22 @@ git clone --recursive --depth=1 https://github.com/dusty-nv/jetson-inference &&
 cd jetson-inference &&
 docker/run.sh --ros=humble
 ```
-Then, clone this repo into your workspaces directory:
-
+ARBI start HERE:
+Turn it on, then run:
 ```bash
-git clone https://github.com/gabearod2/omni_control_ws
+cd jetson-inference &&
+docker/run.sh --ros=humble
 ```
+Once in the container:
+```bash
+mkdir workspaces
+cd workspaces
+git clone https://github.com/gabearod2/omni_control_ws
+cd omni_control_ws
+colcon build
+```
+This is how you test the code. You can edit and push on your laptop. You can start with exmaples from the ROS2 Humble Documentation.
+
 
 Then, run the container and build:
 
